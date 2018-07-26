@@ -1,0 +1,10 @@
+Source: aiy-board-keyring
+Maintainer: AIY Projects <support-aiyprojects@google.com>
+Build-Depends: debhelper, gnupg
+
+Package: aiy-board-keyring
+Section: misc
+Priority: required
+Architecture: all
+Depends:
+Description: Public keys to verify packages for the AIY Board
