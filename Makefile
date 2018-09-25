@@ -1,5 +1,5 @@
-aiy-board-keyring.gpg: linux_signing_key.pub
-	gpg --no-keyring --import-options import-export --import < $< > $@
+aiy-board-keyring.gpg: cloud-key.gpg linux_signing_key.pub
+	gpg --no-keyring --import-options import-export --import $^ > $@
 
 build: aiy-board-keyring.gpg
 
