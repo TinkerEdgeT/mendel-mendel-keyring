@@ -6,7 +6,7 @@ Build-Depends: debhelper, gnupg
 
 Package: aiy-board-keyring
 Section: misc
-Priority: required
+Priority: optional
 Architecture: all
 Depends:
 Description: Public keys to verify packages for the AIY Board
