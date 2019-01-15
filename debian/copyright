@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: aiy-board-keyring
-Source: https://aiyprojects.withgoogle.com
+Upstream-Name: mendel-keyring
+Source: https://aiyprojects.googlesource.com/mendel-keyring
 
 Files: *
 Copyright: Copyright 2018 Google, LLC <support-aiyprojects@google.com>

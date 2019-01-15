@@ -1,13 +1,13 @@
-aiy-board-keyring.gpg: cloud-key.gpg linux_signing_key.pub
+mendel-keyring.gpg: cloud-key.gpg linux_signing_key.pub
 	gpg --no-keyring --import-options import-export --import $^ > $@
 
-build: aiy-board-keyring.gpg
+build: mendel-keyring.gpg
 
 install: build
 	install -d $(DESTDIR)/etc/apt/trusted.gpg.d/
-	cp aiy-board-keyring.gpg $(DESTDIR)/etc/apt/trusted.gpg.d/
+	cp mendel-keyring.gpg $(DESTDIR)/etc/apt/trusted.gpg.d/
 
 clean:
-	rm -f aiy-board-keyring.gpg
+	rm -f mendel-keyring.gpg
 
 .PHONY: build install clean

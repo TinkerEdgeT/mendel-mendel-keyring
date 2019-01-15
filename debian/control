@@ -1,12 +1,12 @@
-Source: aiy-board-keyring
+Source: mendel-keyring
 Section: misc
 Priority: optional
 Maintainer: AIY Projects <support-aiyprojects@google.com>
 Build-Depends: debhelper, gnupg
 
-Package: aiy-board-keyring
+Package: mendel-keyring
 Section: misc
 Priority: optional
 Architecture: all
 Depends:
-Description: Public keys to verify packages for the AIY Board
+Description: Public keys to verify packages for the Mendel OS
