@@ -2,10 +2,10 @@ mendel-keyring (1-1) mendel-beaker; urgency=medium
 
   * Cut for beaker release and version normalization.
 
- -- AIY Projects <coral-support@google.com>  Wed, 16 Jan 2019 12:00:00 -0800
+ -- Coral <coral-support@google.com>  Wed, 16 Jan 2019 12:00:00 -0800
 
 mendel-keyring (0.1) UNRELEASED; urgency=medium
 
   * Initial release.
 
- -- AIY Projects <coral-support@google.com>  Mon, 04 Jun 2018 16:14:00 -0800
+ -- Coral <coral-support@google.com>  Mon, 04 Jun 2018 16:14:00 -0800

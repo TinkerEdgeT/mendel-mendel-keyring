@@ -1,7 +1,7 @@
 Source: mendel-keyring
 Section: misc
 Priority: optional
-Maintainer: AIY Projects <coral-support@google.com>
+Maintainer: Coral <coral-support@google.com>
 Build-Depends: debhelper, gnupg
 
 Package: mendel-keyring
