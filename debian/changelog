@@ -1,3 +1,9 @@
+mendel-keyring (2-1) mendel-chef; urgency=medium
+
+  * Cut for chef release
+
+ -- Coral <coral-support@google.com>  Tue, 19 Mar 2019 17:08:25 -0700
+
 mendel-keyring (1-1) mendel-beaker; urgency=medium
 
   * Cut for beaker release and version normalization.
