@@ -1,4 +1,4 @@
-mendel-keyring.gpg: cloud-key.gpg linux_signing_key.pub
+mendel-keyring.gpg: cloud-key.gpg linux_signing_key.pub mendel-pubkey.gpg
 	gpg --no-keyring --import-options import-export --import $^ > $@
 
 build: mendel-keyring.gpg
