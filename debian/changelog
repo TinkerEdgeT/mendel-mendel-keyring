@@ -1,3 +1,9 @@
+mendel-keyring (3-2) UNRELEASED; urgency=medium
+
+  * Include the new GKE/Jenkins signing key.
+
+ -- Coral <coral-support@google.com>  Tue, 09 Jun 2020 11:37:17 -0400
+
 mendel-keyring (3-1) mendel-day; urgency=medium
 
   * Cut for day release
